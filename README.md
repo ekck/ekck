@@ -67,6 +67,43 @@ I build data-driven web applications for East African markets — news aggregato
 
 ---
 
+## Visualisations
+
+**Language distribution**
+
+```mermaid
+pie
+    title Language Distribution
+    "Python" : 38
+    "TypeScript" : 28
+    "JavaScript" : 18
+    "HTML / CSS" : 10
+    "C# / Java" : 4
+    "Shell" : 2
+```
+
+**Tech stack — live projects using each tool**
+
+```mermaid
+xychart-beta
+    title "Stack Coverage Across Live Projects"
+    x-axis ["Docker", "Python", "React/Next", "Nginx/CF", "Flask", "PostgreSQL", "ML"]
+    y-axis "Projects" 0 --> 6
+    bar [5, 4, 4, 5, 3, 2, 1]
+```
+
+**Live projects in production — growth over time**
+
+```mermaid
+xychart-beta
+    title "Production Projects"
+    x-axis ["2022", "2023", "2024", "2025"]
+    y-axis "Projects" 0 --> 6
+    line [2, 3, 4, 5]
+```
+
+---
+
 ## Currently Exploring
 
 - **PACE / TerraQuant** — Pan-African Carbon Exchange on Polygon, Kenya 2023 regulatory compliance
